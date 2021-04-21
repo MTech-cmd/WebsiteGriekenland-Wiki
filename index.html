@@ -1,72 +1,47 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <title>Griekenland</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <style>
-    body {margin:0;}
+  <html lang="nl-nl">
 
-    ul {
-      list-style-type: none;
-      margin: 0;
-      padding: 0;
-      overflow: hidden;
-      background-color: #0000ff;
-      position: fixed;
-      top: 0;
-      width: 100%;
-    }
-
-    li {
-      float: left;
-    }
-
-    li a {
-      display: block;
-      color: black;
-      text-align: center;
-      padding: 14px 16px;
-      text-decoration: none;
-    }
-
-    li a:hover:not(.active) {
-      background-color: #ffffff;
-    }
-
-    .active {
-      background-color: #0000cc;
-    }
-    li {
-      border-right: 2px solid #000000;
-    }
-
-    li:last-child {
-      border-right: none;
-      border-left: 2px solid #000000;
-    }
-    body {
-      margin: 0;
-      font-family: Arial, Helvetica, sans-serif;
-    }
-
-    body {
-    background-image: url('img_girl.jpg');
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
-  }
-    </style>
+    <head>
+      <title>Welkom bij Griekenland-Wiki</title>
+      <link rel="icon" href="img/favicon.ico">
+      <link rel="stylesheet" type="text/css" href="dark.css" id="theme-link">
+      <meta charset="UTF-8">
+      <meta author="Esad Yalgin, Mehdi El Khallouki">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
     </head>
+
     <body>
+      <div class="wrapper">
+        <header>
+          <a href="placeholder"><img src="nl-nl/img/lang.png" id="lang-switch"></a>
+          <button class="btn-toggle">
+            <script src="button.js"></script>
+          </button>
+          <div class="header-img">
+            <img src="nl-nl/img/mainlogo.png" alt="Logo hier" id="mainlogo">
+          </div>
+          <div class="backdrop">
+            <nav>
+              <ul>
+                <li><a href="test 1.html">Geografie</a></li>
+                <li><a href="test 1.html">Geschiedenis</a></li>
+                <li><a href="test 1.html">Cultuur</a></li>
+                <li><a href="test 1.html">Over ons</a></li>
+              </ul>
+            </nav>
+          </div>
+        </header>
+      </div>
+    </body>
+    <style>
+      nav li {
+        margin: 10% 7.5%;
+      }
 
-    <ul>
-      <li><a class="active" href="#home"><b>Home</b></a></li>
-      <li><a href="#geografie"><b>Geografie</b></a></li>
-      <li><a href="#geschiedenis en cultuur"><b>Geschiedenis en cultuur</b></a></li>
-      <li style="float:right"><a href="#overons"><b>Over ons</b></a></li>
-    </ul>
+      nav a {
+        padding: 20px;
+        font-size: 110%;
+      }
+    </style>
 
-    <div style="padding:20px;margin-top:30px;background-color:#ffffff;height:1500px;">
-      Hier cjoiso
-  </body>
-</html>
+  </html>
